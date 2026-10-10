@@ -1,21 +1,41 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Bariatric AfterCare App
 
-# Run and deploy your AI Studio app
+This repository currently contains project documentation only.
 
-This contains everything you need to run your app locally.
+## Current status
 
-View your app in AI Studio: https://ai.studio/apps/a3e10905-6266-49c2-9683-fcc4dca83295
+| File | Purpose |
+| --- | --- |
+| README.md | Repository status and the existing AI Studio reference |
+| AGENTS.md | Instructions for agents working in this repository |
 
-## Run Locally
+No application source, dependency manifests, build configuration, test suite,
+or CI workflows are committed. The application platform, technology stack,
+implemented features, and deployment are not established by this repository.
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+## AI Studio reference
 
+The previously documented app link is retained as a reference:
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+[Open the referenced AI Studio app](https://ai.studio/apps/a3e10905-6266-49c2-9683-fcc4dca83295)
+
+Access to that external app and correspondence with this repository have not
+been verified. Its source code is not included here.
+
+## Local execution and validation
+
+There is currently no runnable application or configured build/test command
+in this repository. Android Studio, Gradle, signing configuration, and Gemini
+API-key setup are not confirmed requirements.
+
+For documentation changes, check accuracy, Markdown structure, links, and
+referenced paths, and run `git diff --check` before committing.
+
+## Adding application source
+
+When application source is added, update this README and AGENTS.md together
+to document the actual architecture, prerequisites, configuration, and
+commands verified against that source. Add runnable build and test
+instructions only when the corresponding files exist.
+
+Keep credentials and identifiable patient data out of this public repository.
